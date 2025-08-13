@@ -21,7 +21,7 @@ public class Abastecimento {
 
     // relacionamento um para um
     @OneToOne
-    @JoinColumn(name = "bomba_combustivel")
+    @JoinColumn(name = "bomba_combustivel_id")
     private BombasDeCombustivel bombasDeCombustivel;
 
     @Column(name = "data_abastecimento")
