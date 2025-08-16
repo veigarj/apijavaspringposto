@@ -15,7 +15,7 @@ import java.time.LocalDate;
 @Builder
 public class Abastecimento {
 
-    @id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
